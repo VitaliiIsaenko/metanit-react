@@ -4,6 +4,12 @@
 <head>
     <meta charset="utf-8" />
     <title>Hello React</title>
+    <style>
+        .user-info {
+            padding: 8px;
+            border: 1px #ccc solid;
+        }
+    </style>
 </head>
 
 <body>
@@ -23,11 +29,15 @@
                 return `${this.firstName} ${this.lastName}`;
             }
         };
+        const userClassName = "user-info";
+        const styleObj = {
+            color: 'red',
+            fontFamily: 'Verdana'
+        }
         ReactDOM.render(
-            <div id = {user.id}>
-                <p>Full name: {user.getFullName()}</p>
+            <div className={userClassName} style={{color:'red', fontFamily:'Verdana'}}>
+                <p>Full name: {user.firstName}</p>
                 <p>Age: {user.age}</p>
-                <p>Time of data generation: {new Date().toLocaleTimeString()}</p>
             </div>,
             document.getElementById("app")
         )
