@@ -1,0 +1,23 @@
+{
+  "name": "metanit-react",
+  "version": "1.0.0",
+  "description": "metanit-react",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "devDependencies": {
+    "http-server" : "5.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitaliiIsaenko/metanit-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitaliiIsaenko/metanit-react/issues"
+  },
+  "homepage": "https://github.com/VitaliiIsaenko/metanit-react#readme"
+}
