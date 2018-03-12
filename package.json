@@ -2,7 +2,7 @@
   "name": "metanit-react",
   "version": "1.0.0",
   "description": "metanit-react",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "http-server"
   },
